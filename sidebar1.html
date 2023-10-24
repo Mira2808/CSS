@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <style>
+        
+       .container{
+        width: 200px;
+        background-color: coral;
+        font-size: x-large;
+
+       }
+
+       a{
+        text-decoration: none;
+        color: black;
+        display: block;
+
+       }
+
+       button{
+        width: 200px;
+        height: 50px;
+        background-color: darkred;
+        color: black;
+        position: relative;
+
+       }
+       .content{
+        display: none;
+
+       }
+
+       .btn3:hover .content{
+        display: block;
+        z-index: 2;
+       }
+
+       .btn2:hover .content{
+        display: block;
+        z-index: 2;
+       }
+
+       .btn:hover .content{
+        display: block;
+        z-index: 3;
+       }
+       
+       
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+            <h1>welcome</h1>
+
+        <div class="btn">
+            <button>home</button>
+
+            <div class="content">
+
+                <a href="#">register</a>
+                <a href="#">login</a>
+            
+            </div>
+        </div>
+        
+        <div class="btn2">
+            <button>about us</button>
+
+            <div class="content">
+
+                <a href="#">whatsapp</a>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+            
+            </div>
+        </div>
+
+        <div class="btn3">
+            <button class="btn2">contact us</button>
+
+            <div class="content">
+
+                <a href="#">whatsapp</a>
+                <a href="#">Instagram</a>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

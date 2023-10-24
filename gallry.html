@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam</title>
+    <link rel="stylesheet" href="exam.css">
+    <style>
+        .contact{
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 100px;
+            /* align-items: center; */
+
+        }
+        
+        .card{
+            text-align: center;
+            width: 180px;
+            border: 2px solid black;
+            margin-bottom: 70px;
+        }
+        img{
+             width: 180px;
+             height: 150px;
+        }
+        button{
+            width:180px;
+            background-color: saddlebrown;
+            color: rgb(254, 251, 251);
+        }
+        button:hover{
+            background-color: aliceblue;
+            color: black;
+            transition: .5s;
+        }
+        .card:hover{
+            box-shadow: 3px 3px 3px 3px rgb(9, 0, 0);
+            transition: .5s;
+        }
+        .dark{
+           background-color: black;
+           color: aliceblue; 
+        }
+        .btn{
+            margin-top: 100px;
+        }
+        @media only screen and (max-width: 750px) {
+            .container{
+                display: block;
+                overflow: visible; 
+                margin-top: 0;
+                left: 0;  
+
+            }
+            .menu{
+                display: block;
+                width: 100%;
+            }
+            a{
+                display: block;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color: rgb(248, 76, 110);
+                color: black;
+            
+            }
+            .contact{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #me{
+                margin-top: 300px;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="" class="i1">
+        </div>
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="regis.html">Registration</a>
+            <a href="login.html">Login</a>
+            <a href="gallry.html">gallry</a>
+        </div>
+    </div>
+
+     <button onclick="change()" class="btn">Dark</button>
+    <div class="container2">
+    <div class="contact" >
+        <div class="card" id="me">
+            <img src="cat1.jpg" alt=""><br>
+            <b>Cute cat</b><br>
+            <b>1000/-</b><br>
+            <button>Add To Cart</button>
+        </div>
+        <div class="card">
+            <img src="cat2.jpg" alt=""><br>
+            <b>Cute cat</b><br>
+            <b>1500/-</b><br>
+            <button>Add To Cart</button>
+        </div>
+        <div class="card">
+            <img src="cat3.jpg" alt=""><br>
+            <b>Cute cat</b><br>
+            <b>1000/-</b><br>
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="card">
+            <img src="dog1.jpg" alt=""><br>
+            <b>Cute Dog</b><br>
+            <b>2000/-</b><br>
+            <button>Add To Cart</button>
+        </div>
+        <div class="card">
+            <img src="dog2.jpg" alt=""><br>
+            <b>Cute Dog</b><br>
+            <b>3000/-</b><br>
+            <button>Add To Cart</button>
+        </div>
+        <div class="card">
+            <img src="dog3.webp" alt=""><br>
+            <b>Cute Dog</b><br>
+            <b>2000/-</b><br>
+            <button>Add To Cart</button>
+        </div>
+        
+    </div>
+</div>
+<script>
+    const change =() =>{
+        let mode=document.body;
+        mode.classList.toggle('dark')
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.b1{
+    border: 3px;
+    border-radius: 2px;
+    border-style: dashed;
+    border-color: blueviolet;
+
+}
+.b2
+{
+    border:3px;
+    border-radius: 3px;
+    border-style: dotted;
+    border-color: rgb(70, 8, 70);
+    margin-top: 3px;
+}
+.b3
+{
+    border: 4px;
+    border-radius: 4px;
+    border-style: groove;
+    border-color: black;
+
+}
+.b4
+{
+    border: 5px;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: darkmagenta;
+}
+.b5
+{
+    border:6px solid;
+    border-radius: 6px;
+    outline-style: dashed;
+    outline-width:7px;
+    outline-color: blue;
+}

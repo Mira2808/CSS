@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam</title>
+    <link rel="stylesheet" href="exam.css">
+    <style>
+        .form{
+            margin-left: 40%;
+            margin-top: 20%;
+            margin-right:40%;
+            border: 3px solid black;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color:gray;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        button{
+        background-color: black;
+        color: aliceblue;
+        font-size: large;
+        width:100px;
+    }
+        button:hover{
+        background-color: aliceblue;
+        color: black;
+        transition: .5s;
+        }
+       .form:hover{
+          box-shadow: 2px 2px 2px 2px rgb(43, 42, 42);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="" class="i1">
+        </div>
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="regis.html">Registration</a>
+            <a href="login.html">Login</a>
+            <a href="about.html">About</a>
+            <a href="gallry.html">gallry</a>
+        </div>
+    </div>
+  <div class="form">
+    <form action="">
+        <label for="username">Name:</label><br>
+        <input type="text" id="name"><br>
+        <label for="password">password:</label><br>
+        <input type="password" id="password"><br>
+        <label for="phoneno">phone no:</label><br>
+        <input type="number" id="number"><br>
+        <label for="E-mail">E-mail</label><br>
+        <input type="email" id="email"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

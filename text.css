@@ -1,0 +1,45 @@
+#p1{
+    text-transform: uppercase;
+    color: darkblue;
+    text-decoration: solid;
+    text-indent: 2px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+#p2{
+    text-decoration: underline overline;
+    color: darkmagenta;
+    text-transform: capitalize;
+    /* letter-spacing: 1px; */
+    line-height: 1;
+    
+}
+#p3{
+    text-decoration: line-through;
+    color: forestgreen;
+    text-transform: lowercase;
+    line-height: 0.5;
+}
+#p4{
+    text-decoration: double;
+    color: rgb(22, 11, 120);
+    text-transform: none;
+    letter-spacing: 3px;
+
+}
+.f1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    text-indent: 31px;
+}
+.f2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+.f3{
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>multiple</title>
+      
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+        *{
+            font-family: 'Roboto', sans-serif;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+                }
+
+
+
+        .content{
+            margin: 100px;
+            display: flex;
+            justify-content: space-around;
+            /* height: 550px; */
+            align-items: center;
+            border: 2px solid purple;
+            margin-top: 100px;
+            
+        }
+        .c1{
+            width:180px;
+            /* border:2px solid black; */
+            text-align: center;
+            height: 200px;
+            padding: 5px;
+            transition: .5s;
+            margin-left: 50px;
+
+        }
+        .i1{
+            width:180px;
+            height: 140px;
+        }
+
+        button{
+            width: 180px;
+            background-color: brown;
+            color: white;
+            transition: .5s;
+        }
+        button:hover{
+            color: brown;
+            background-color: aliceblue;
+            
+        }
+        .c1:hover{
+            box-shadow: 2px 2px 2px 2px rgb(48, 1, 1);
+            
+
+        }
+    
+        .nav{
+            
+            height: 80px;
+            border: 2px solid black;
+            display: flex;
+            background-color: rgb(246, 86, 86);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+        .logo{
+            width: 40%;
+            transition: .5s;
+        }
+
+        .logo:hover{
+
+            /* mix-blend-mode: normal; */
+        }
+
+        .menu{
+            width:60%;
+            display: flex;
+            justify-content:end;
+            align-items: center;
+            height: 80px;
+            float: right;
+        }
+        a{
+
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            /* background-color: blanchedalmond; */
+            font-size: larger;
+            font-weight: 900; 
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: .5s;
+           
+         }
+         a:hover{
+            background-color:rgba(109, 36, 2, 0.612);
+            color:bisque;
+            font-weight: 100;
+         }
+
+         .img{
+            mix-blend-mode: multiply;
+            
+         }
+
+         .img:hover{
+            mix-blend-mode: normal;
+         }
+         
+
+         @media only screen and (max-width:600px){
+            
+            .container{
+                border: 3px solid black;
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+            }
+         }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="nav">     
+       <div class="logo">
+        <img src="e-commerce.png" alt="" height="80px" width="100px" style="border-radius: 50px;" class="img">
+       </div> 
+       <div class="menu">
+        <a href="#">home</a>
+        <a href="#">contact</a>
+        <a href="#">product</a>
+        <a href="#">about</a>
+       </div>
+
+
+    </div>
+    <div class="container">
+    <div class="content" style="border: 2px solid red;">
+        <div class="c1" style="border:3px dotted blue; margin-top: 50px;">
+            <img class="i1" src="image.jpg" alt=""><br>
+            <b>product</b><br>
+            <b>100/-</b><br>
+            <button>ADD TO CART</button>
+            </div>
+            <div class="c1" style="border:3px dotted blue; margin-top: 50px;">
+                <img src="image.jpg" alt="" class="i1"><br>
+                <b>product</b><br>
+                <b>100/-</b><br>
+                <button>ADD TO CART</button>
+             </div>
+           <div class="c1" style="border:3px dotted blue; margin-top: 50px;">
+                <img src="image.jpg" alt="" class="i1"><br>
+                <b>product</b><br>
+                <b>100/-</b><br>
+                <button>ADD TO CART</button>
+            </div>
+
+
+
+
+    </div>
+
+    <div class="content" style="border: 2px solid red;">
+        <div class="c1" style="border:3px dotted blue; margin-top: 50px;">
+            <img class="i1" src="image.jpg" alt=""><br>
+            <b>product</b><br>
+            <b>100/-</b><br>
+            <button>ADD TO CART</button>
+            </div>
+            <div class="c1" style="border:3px dotted blue; margin-top: 50px;">
+                <img src="image.jpg" alt="" class="i1"><br>
+                <b>product</b><br>
+                <b>100/-</b><br>
+                <button>ADD TO CART</button>
+             </div>
+           <div class="c1" style="border:3px dotted blue; margin-top: 50px;">
+                <img src="image.jpg" alt="" class="i1"><br>
+                <b>product</b><br>
+                <b>100/-</b><br>
+                <button>ADD TO CART</button>
+            </div>
+
+
+
+
+    </div>
+
+
+    
+
+
+    
+
+
+    </div>
+</body>
+</html>  
